@@ -1,0 +1,34 @@
+server:
+  port: 8081
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ppoiuy1451@gmail.com
+    password: ztyxelusrrcnhirt
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://127.0.0.1:3306/junghoyeoun?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul&useOldAliasMetadataBehavior=true&zeroDateTimeNehavior=convertToNull
+    username: root
+    password: 
+mybatis:
+  type-aliases-package: com.example.demo.vo
+custom:
+  siteName: SB_AM_04
+  siteMainUri: http://localhost:8081
+  emailFrom: no-reply@localhost
+  emailFromName: SB_AM_04
+  logging:
+    dir: log
+    level: debug

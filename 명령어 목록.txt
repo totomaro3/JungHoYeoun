@@ -1,0 +1,60 @@
+//git config --global user.name "유저이름"
+//git config --global user.email "유저 이메일"
+//git init
+
+//git add .
+//git status
+//git commit -m "~"
+//git remote add origin https://github.com/totomaro3/JAM.git
+//git push origin master
+
+ctrl + shift + r : 파일 빠르게 찾기
+ctrl + shift + f : 자동 정렬
+
+홈페이지
+http://localhost:8081/
+
+디테일
+http://localhost:8081/usr/article/getArticle?id=1
+
+작성
+http://localhost:8081/usr/article/doWrite?title=t7&body=b7
+
+수정
+http://localhost:8081/usr/article/doModify?id=1
+
+삭제
+http://localhost:8081/usr/article/doDelete?id=1
+
+조인
+http://localhost:8081/usr/member/dojoin?
+
+로그인
+http://localhost:8081/usr/member/doLogin?loginId=test1&loginPw=test1
+
+로그아웃
+http://localhost:8081/usr/member/doLogout
+
+
+figma사용
+연정's figma 사용하기
+
+폰트 사이트 눈누
+
+daisyUI : 테일윈드 CSS
+
+캐글 : 머신러닝
+
+참고 책 점프 투 스프링 부트
+
+기업
+다양한 언어 사용
+현황분석 ? 사태파악
+자바 + 스프링 중요
+
+
+신입개발자는 자신의 능력보다 학습 능력을 어필해야 한다.
+
+종강 5월 22일까지
+프로젝트 , 포트폴리오 6월 9일
+웹 어플리케이션 개발 중입니다.
