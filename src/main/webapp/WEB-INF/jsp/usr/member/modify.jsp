@@ -66,14 +66,14 @@
 						<tr>
 							<th>새 비밀번호</th>
 							<td>
-								<input name="loginPw" class="input input-bordered w-full max-w-xs" placeholder="새 비밀번호를 입력해주세요" type="text" />
+								<input name="loginPw" class="password-input input input-bordered w-full max-w-xs" placeholder="새 비밀번호 입력" type="password" />
 							</td>
 						</tr>
 						<tr>
 							<th>새 비밀번호 확인</th>
 							<td>
-								<input name="loginPwConfirm" class="input input-bordered w-full max-w-xs" placeholder="새 비밀번호 확인을 입력해주세요"
-									type="text" />
+								<input name="loginPwConfirm" class="password-input input input-bordered w-full max-w-xs" placeholder="새 비밀번호 확인"
+									type="password" />
 							</td>
 						</tr>
 						<tr>
@@ -99,3 +99,10 @@
 </section>
 
 <%@ include file="../common/foot.jspf"%>
+
+<style>
+.password-input {
+  font-family: monospace; /* 모노스페이스 폰트 사용 */
+  text-security: disc; /* 별표(*) 대신 디스크 모양으로 표시 */
+}
+</style>

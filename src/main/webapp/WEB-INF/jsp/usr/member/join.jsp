@@ -125,14 +125,14 @@
 						<th>비밀번호</th>
 						<td><input onblur="checkLoginPwConfirm(this);" name="loginPw"
 							class="w-full password-input input input-bordered  max-w-xs"
-							type="password" placeholder="비밀번호를 입력해주세요" /></td>
+							type="password" placeholder="비밀번호 입력" /></td>
 					</tr>
 					<tr>
 						<th>비밀번호 확인</th>
 						<td><input onblur="checkLoginPwConfirm(this);"
 							name="loginPwConfirm"
 							class="w-full password-input input input-bordered  max-w-xs"
-							type="password" placeholder="비밀번호 확인을 입력해주세요" />
+							type="password" placeholder="비밀번호 확인" />
 							<div class="checkConfirm-msg mt-2">&nbsp</div></td>
 					</tr>
 					<tr>

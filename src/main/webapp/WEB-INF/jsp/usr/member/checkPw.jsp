@@ -35,8 +35,7 @@
 						<tr>
 							<th>비밀번호</th>
 							<td>
-								<input class="input input-bordered w-full max-w-xs" autocomplete="off" type="text"
-									placeholder="비밀번호를 입력해주세요" name="loginPw" />
+								<input class="password-input input input-bordered w-full max-w-xs" type="password" name="loginPw" placeholder="비밀번호 입력" />
 							</td>
 						</tr>
 						<tr>
@@ -53,3 +52,10 @@
 </section>
 
 <%@ include file="../common/foot.jspf"%>
+
+<style>
+.password-input {
+  font-family: monospace; /* 모노스페이스 폰트 사용 */
+  text-security: disc; /* 별표(*) 대신 디스크 모양으로 표시 */
+}
+</style>
